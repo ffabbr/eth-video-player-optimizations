@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Paella Speed Controls",
-  "version": "1.1",
-  "description": "Adds 2.5x and 3x playback speed options to the Paella video player.",
+  "name": "ETH Video Portal Optimizations",
+  "version": "1.2",
+  "description": "Adds 2.5x and 3x playback speed options to the Paella video player, plus lecture bookmarks.",
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["https://video.ethz.ch/*"],
